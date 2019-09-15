@@ -7,7 +7,9 @@ import Guests from './components/Guests/Guests';
 import Contact from './components/Contact/Contact';
 import Sponsors from './components/Sponsors/Sponsors';
 import User from './components/User/User';
-import LoggedIn from './LoggedIn';		
+import LoggedIn from './LoggedIn';
+import Developers from './components/Developers/Developers';
+
 
 class App extends Component {
 
@@ -26,6 +28,7 @@ class App extends Component {
 						<LoggedIn path="/aboutUs" component={AboutUs} />
 						<LoggedIn path="/sponsors" component={Sponsors} />
 						<LoggedIn path="/user" component={User} /> 
+						<LoggedIn path="/developers" component={Developers} />
 					
 					</div>
 
